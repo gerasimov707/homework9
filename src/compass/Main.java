@@ -13,6 +13,8 @@ public class Main {
         System.out.println("nameBook = " + nameBook );
         Book nameBook1 = new Book("Wor" , author1, 2010);
         System.out.println("nameBook1 = " + nameBook1);
+        System.out.println(author.equals(author1));
+        System.out.println(nameBook.equals(nameBook1));
     }
 }
 
